@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperAndScisor</title>
+</head>
+<body>
+
+
+    <h3>Rock Paper Scissors</h3>
+    
+    <button onclick="
+    //1 = rock; 2 = paper , 3 = scissors
+        let computerPick = Math.floor(Math.random()*4 + 1);
+        console.log(computerPick);
+        choice = 1;
+        if(computerPick === choice)
+        {
+            alert('its a draw');
+        }
+        else if(computerPick === 2)
+        {
+            alert('Computer picked Paper you lose');
+        }
+        else {
+            alert('Computer picked Scissors you win!! ');
+        }
+        choice = 0;
+    
+    ">Rock</button>
+
+
+
+    <button onclick="
+    //1 = rock; 2 = paper , 3 = scissors
+        {let computerPick = Math.floor(Math.random()*4 + 1);
+        console.log(computerPick);
+        choice = 2;
+        if(computerPick === choice)
+        {
+            alert('its a draw');
+        }
+        else if(computerPick === 1)
+        {
+            alert('Computer picked Scissors you lose');
+        }
+        else {
+            alert('Computer picked Rock you win!! ');
+        }
+    
+        choice = 0;}
+        ">paper</button>
+    <button  onclick="
+    //1 = rock; 2 = paper , 3 = scissors
+        {let computerPick = Math.floor(Math.random()*4 + 1);
+        console.log(computerPick);
+        choice = 3;
+        if(computerPick === choice)
+        {
+            alert('its a draw');
+        }
+        else if(computerPick === 1)
+        {
+            alert('Computer picked Rock you lose');
+        }
+        else {
+            alert('Computer picked Paper you win!! ');
+        }
+    
+        choice = 0;}
+        ">Scissors</button>
+
+
+    <script>
+        let choice = 0;
+        
+    </script>
+    
+</body>
+</html>
