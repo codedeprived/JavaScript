@@ -82,6 +82,8 @@ nullfucn1(); //=> 'default';
 nullfucn1(undefined)// => default;
 nullfucn1(null);// => default;
 
+
+
 // - in most cases null and undefined works the same way
 
 
