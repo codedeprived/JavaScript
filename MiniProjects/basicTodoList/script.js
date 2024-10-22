@@ -21,8 +21,7 @@ function renderTodoList()
     }
    
     document.querySelector('.js-todo-list').innerHTML = todoListHTML; 
-    todoListHTML = ''; 
-
+    todoListHTML = '';
     
 }
 function addTodo()
@@ -44,4 +43,5 @@ function addTodo()
     inputElement.value = '';
     renderTodoList();
     localStorage.setItem('todoList', todoList);
+
 }

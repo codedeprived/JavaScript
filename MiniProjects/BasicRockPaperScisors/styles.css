@@ -30,7 +30,7 @@ body{
   {
     margin-top: 60px;
   }
-  .reset-score-button {
+  .reset-score-button , .autoplay-button {
     background-color: white;
     border: none;
     font-size: 15px;

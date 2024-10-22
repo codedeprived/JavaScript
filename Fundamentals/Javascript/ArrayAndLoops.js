@@ -14,3 +14,13 @@ array.splice(0,2);//starting index , no of element to remove after starting inde
 console.log(array);
 
 
+//arrays are also referecenses as 
+//arrays are also speacial type of object
+
+//anoher way of looping an array using forEach() loop
+
+
+['hello' , 'konichiwa' , 'hi'].forEach(function(value , index){
+    console.log(value);
+    console.log(index);
+})
