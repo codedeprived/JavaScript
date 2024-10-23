@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventListner</title>
+</head>
+<body>
+    <h3>Event Listner</h3>
+
+    <button onclick="" class="js-button">Click</button>
+
+
+</body>
+
+    <script>
+
+        const buttonElement = document.querySelector('.js-button');
+        //EventListner - advantages
+        //- lets us add multiple even listerner for a single event
+
+        //- we can remove the event listner if we want
+        const eventListner = () =>{
+            console.log('click21');
+        }
+        buttonElement.addEventListener('click' , eventListner
+        );
+        //- we can remove the event listner if we want
+        buttonElement.removeEventListener('click', eventListner);
+
+        buttonElement.addEventListener('click' ,eventListner
+        );
+
+        //best practise is to use eventListner instead of and attribute
+
+        //fiter() , map();
+
+    </script>
+</html>
