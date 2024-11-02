@@ -64,10 +64,25 @@
     ">
     <button onclick=" showname();">Submit</button>
     <p class="js-display-name"></p>
+    <button onclick="showError();">Error Message</button>
+    <p class="js-error-msg"></p>
 </body>
 
 
 <script>
+
+    function showError()
+    {
+        let flag = true;
+        const noErrorMsg = "NO Error is there in the code";
+        const ErrorMsg = "There is Error in the code";
+
+        if(flag)
+        document.querySelector('.js-error-msg').innerHTML = ErrorMsg;
+        else{
+            document.querySelector('.js-error-msg').innerHTML = noErrorMsg;
+        }
+    }
     
     function showname(event)
     {  
