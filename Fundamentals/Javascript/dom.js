@@ -45,7 +45,7 @@ function showError()
         }
         
     }
-
+    
     function calculateTotal(){
         const inputElement = document.querySelector('.js-cost-input');
         let cost = Number(inputElement.value);

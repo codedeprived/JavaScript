@@ -24,3 +24,4 @@ console.log(array);
     console.log(value);
     console.log(index);
 })
+
